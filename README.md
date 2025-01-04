@@ -18,10 +18,10 @@ Each section contains Jupyter notebooks with code, explanations, and results for
 ## EDA (Exploratory Data Analysis)
    
 1. **[Netflix EDA](EDA/Netflix/NetflixAnalysis.ipynb)**  
-   - In this notebook, the Netflix dataset is analyzed, focusing on user behaviors, viewing trends, and content metadata.
+   - In this notebook, the Netflix dataset is analyzed, viewing trends, and content metadata.
 
 1. **[Fastfood EDA](EDA/FastFood/TopFastFoodAnalysis.ipynb)**  
-   - This notebook explores a fast food dataset, performing analysis on different attributes to extract insights.
+   - This notebook explores a fast food dataset, performing analysis on the top worldwide distributors.
 
 ---
 
@@ -44,18 +44,18 @@ Each section contains Jupyter notebooks with code, explanations, and results for
    - This notebook applies unsupervised dimensionality reduction techniques (e.g., PCA, t-SNE) on embeddings to visualize them in lower dimensions.
 
 3. **[Iris Anomaly Detection](Unsupervised/AnomalyDetection/IrisAnomalyDetection.ipynb)**  
-   - This notebook applies 
+   - This notebook applies anomaly detection algorithms such as Isolation Forest or OneClassSVM on the Iris dataset.
 
 ## Feedforward Neural Networks (FNN)
 
-1. **[Topic Classification](FNN/TopicClassification/News_Classification.ipynb)**  
-   - A feedforward neural network is trained to classify text into different topics based on a given dataset.
+1. **[News Topic Classification](FNN/Classification/News_Classification.ipynb)**  
+   - A feedforward neural network is trained to classify news articles into different topics based on a given dataset.
 
 1. **[Content-Based Movie Recommender](FNN/Recommender/MovieRecommender-ContentBasedFiltering.ipynb)**  
-   - A content-based recommender system built using neural networks to recommend items based on features like descriptions and tags.
+   - Content-based recommender systems using methods like semantic vector search, embedding models and pairwise cosine similarity.
 
-1. **[Collaborative Filtering Recommender](FNN/)**  
-   - A neural network-based collaborative filtering model used to recommend items based on user interactions and preferences.
+1. **[Collaborative-Filtering Movie Recommender](FNN/Recommender/MovieRecommender-CollaborativeFiltering.ipynb)**  
+   - A neural network-based collaborative filtering model used to recommend movies based on user ratings.
 
 ---
 
@@ -65,7 +65,7 @@ Each section contains Jupyter notebooks with code, explanations, and results for
    - A convolutional neural network is used to classify images from the CIFAR-10 dataset into different categories.
 
 1. **[Clothing Products Classification](CNN/ImageClassification/Fashion_MNIST.ipynb)**  
-   - A convolutional neural network is used to classify images from the CIFAR-10 dataset into different categories.
+   - A convolutional neural network is used to classify clothing products images into different categories.
 
 1. **[Car Object Detection](CNN/ObjectDetection/CarsDetection.ipynb)**  
    - This notebook uses CNNs for detecting and classifying cars in images, employing object detection techniques.
@@ -81,15 +81,15 @@ Each section contains Jupyter notebooks with code, explanations, and results for
 
 ## Reinforcement Learning (RL)
 
-1. **[Mountain Car Problem](RL/MountainCarProblem.ipynb)**  
-   - A reinforcement learning agent is trained to solve the Mountain Car problem, where the goal is to move a car up a hill.
+1. **[Toy Text Problems](RL/ToyText_Problems.ipynb)**  
+   - DQN agents are trained to solve different toy text problems such as Taxi-v3 or Frozen Lake.
 
 ---
 
 ## Generative AI (GenAI)
 
 1. **[Order Bot](GenAI/OrderBot.ipynb)**  
-   - This notebook explores the process of prompt engineering for a generative AI-based chatbot, optimizing its responses for various user inputs.
+   - This notebook explores the process of prompt engineering for a generative AI-based chatbot that handles orders for a pizza restaurant.
 
 ---
 
