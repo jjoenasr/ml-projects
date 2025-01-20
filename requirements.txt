@@ -20,3 +20,4 @@ torch
 ultralytics
 wordcloud
 xgboost
+faiss-cpu
