@@ -77,19 +77,25 @@ Each section contains Jupyter notebooks with code, explanations, and results for
 1. **[IMDB Sentiment Analysis](RNN/SentimentAnalysis/IMDB_Reviews.ipynb)**  
    - An RNN is used to analyze the sentiment of movie reviews from the IMDB dataset, classifying them as positive or negative.
 
+1. **[Lyrics Generator](RNN/TextGeneration/LyricsGenerator.ipynb)**
+   - This notebook demonstrates how to train an RNN-based lyrics generator model using dynamically fetched song lyrics.
+   
 ---
 
 ## Reinforcement Learning (RL)
 
 1. **[Toy Text Problems](RL/ToyText_Problems.ipynb)**  
-   - DQN agents are trained to solve different toy text problems such as Taxi-v3 or Frozen Lake.
+   - DQN agents are trained to solve different toy text problems such as Taxi-v3 and Frozen Lake.
 
 ---
 
 ## Generative AI (GenAI)
 
-1. **[Order Bot](GenAI/OrderBot.ipynb)**  
+1. **[Order Bot](GenAI/PromptEng/OrderBot.ipynb)**  
    - This notebook explores the process of prompt engineering for a generative AI-based chatbot that handles orders for a pizza restaurant.
+
+1. **[PDF RAG](GenAI/RAG/PDF_RAG.ipynb)**  
+   - This notebook showcases how to build a Retrieval-Augmented Generation model with LangChain to enhance text generation with information retrieved from PDF documents.
 
 ---
 
