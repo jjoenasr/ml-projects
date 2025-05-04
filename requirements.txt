@@ -1,4 +1,5 @@
 faiss-cpu
+google-genai
 google-generativeai
 gradio
 gym
