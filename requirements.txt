@@ -1,4 +1,6 @@
+datasets
 faiss-cpu
+facenet-pytorch
 google-genai
 google-generativeai
 gradio
@@ -30,6 +32,7 @@ tensorflow
 tensorflow-datasets
 tensorflow-hub
 torch
+torchvision
 tqdm
 ultralytics
 wordcloud

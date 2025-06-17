@@ -69,6 +69,9 @@ Each section contains Jupyter notebooks with code, explanations, and results for
 
 1. **[Car Object Detection](CNN/ObjectDetection/CarsDetection.ipynb)**  
    - This notebook uses CNNs for detecting and classifying cars in images, employing object detection techniques.
+   
+1. **[Twin Celebrity Lookalike](CNN/FaceRecognition/twin_celebrity_lookalike.ipynb)**  
+   - This notebook builds a twin celebrity lookalike system using ResNet-based face embeddings and FAISS for fast similarity search.
 
 ---
 
